@@ -117,4 +117,6 @@ Please cite the associated manuscript when using this repository.
 
 ## License and third-party data
 
-The repository's original code and documentation are released under the MIT License. The license does **not** grant rights to third-party datasets. In particular, the Alibaba GPU 2020 trace remains governed by the terms established by its publisher.
+No open-source license is granted for this repository. The repository's original code and documentation remain subject to applicable copyright law unless permission is provided separately by the author.
+
+The Alibaba GPU 2020 trace is third-party data and remains governed by the terms established by its publisher. This repository does not claim ownership of, or grant rights to, that dataset.
