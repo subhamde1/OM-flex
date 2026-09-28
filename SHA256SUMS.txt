@@ -1,0 +1,6 @@
+# Core replication artifacts corresponding to the repository version prepared on 2026-09-29.
+# Verify from the repository root with: sha256sum -c SHA256SUMS.txt
+97d55e9345831ab01d756d8691c781e699b3667f22dd7a27c563cb44384a33f8  synthetic_replication.py
+a9ddfa4250a67e2a9ba5b16b84ae53e63c6c5e7856f675ba5f0f03ccfa63c965  trace_compute.py
+0de737d48807e4187071f0bb685c0bd11b94544a1051ed8586506829d77402dd  sustained_capacity_stress.py
+e1cba1ead42103d20a9160dfca084462416d6436b7202cb8dc872926aa461a5c  synthetic_results.json

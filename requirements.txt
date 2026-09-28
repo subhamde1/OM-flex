@@ -1,0 +1,3 @@
+# Replication environment used for the paper
+numpy==2.3.5
+scipy==1.17.0
