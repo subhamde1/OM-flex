@@ -113,7 +113,7 @@ On Windows, the equivalent hashes can be checked with `Get-FileHash -Algorithm S
 
 ## Citation
 
-Please cite the associated manuscript when using this repository. GitHub can read `CITATION.cff` and expose a **Cite this repository** option.
+Please cite the associated manuscript when using this repository.
 
 ## License and third-party data
 
