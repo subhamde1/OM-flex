@@ -1,0 +1,1661 @@
+{
+  "metadata": {
+    "raw_rows": 1261050,
+    "successful_single_instance_one_gpu": 289555,
+    "single_task_jobs": 271227,
+    "eligible_jobs": 218117,
+    "complete_days": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ],
+    "empty_cohort_days": [
+      11,
+      12
+    ],
+    "gpu_types": {
+      "MISC": 160048,
+      "P100": 29502,
+      "T4": 68103,
+      "V100": 7473,
+      "V100M32": 6101
+    },
+    "excluded_by_day_or_max_slack": 53110,
+    "archive_sha256": "cd1d6dc3215d2a8607ccf6b6dd952b5db776df86926c73259fea7c1499ac40e5",
+    "source_url": "https://aliopentrace.oss-cn-beijing.aliyuncs.com/v2020GPUTraces/pai_task_table.tar.gz"
+  },
+  "capacity_scale": 438.5519675925934,
+  "days": [
+    {
+      "day": 13,
+      "split": "train",
+      "minimum_gpu_capacity": 142.47993464052263,
+      "analytic_headroom": 0.3251127684532844,
+      "feasible": true,
+      "headroom": 0.3251127684532851,
+      "physical_headroom": 0.3251127684532851,
+      "balance": 1.214306433183765e-17,
+      "cap": 2.7755575615628914e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 14,
+      "split": "train",
+      "minimum_gpu_capacity": 136.99888888888879,
+      "analytic_headroom": 0.3376108214929771,
+      "feasible": true,
+      "headroom": 0.3376108214929779,
+      "physical_headroom": 0.3376108214929779,
+      "balance": 6.938893903907228e-18,
+      "cap": 1.3877787807814457e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 15,
+      "split": "train",
+      "minimum_gpu_capacity": 183.20029914529889,
+      "analytic_headroom": 0.23226091162931795,
+      "feasible": true,
+      "headroom": 0.23226091162931914,
+      "physical_headroom": 0.23226091162931914,
+      "balance": 6.938893903907228e-18,
+      "cap": 2.7755575615628914e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 16,
+      "split": "train",
+      "minimum_gpu_capacity": 67.58925925925907,
+      "analytic_headroom": 0.49588084365397667,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.4958808436539766,
+      "balance": 1.9081958235744878e-17,
+      "cap": 1.6653345369377348e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 17,
+      "split": "train",
+      "minimum_gpu_capacity": 152.24355555555567,
+      "analytic_headroom": 0.3028494527312506,
+      "feasible": true,
+      "headroom": 0.3028494527312515,
+      "physical_headroom": 0.3028494527312515,
+      "balance": 2.42861286636753e-17,
+      "cap": 2.498001805406602e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 18,
+      "split": "train",
+      "minimum_gpu_capacity": 236.06052631578925,
+      "analytic_headroom": 0.11172735785081456,
+      "feasible": true,
+      "headroom": 0.11172735785081615,
+      "physical_headroom": 0.11172735785081615,
+      "balance": 6.938893903907228e-18,
+      "cap": 2.498001805406602e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 19,
+      "split": "train",
+      "minimum_gpu_capacity": 194.17697777777767,
+      "analytic_headroom": 0.20723154351877304,
+      "feasible": true,
+      "headroom": 0.20723154351877437,
+      "physical_headroom": 0.20723154351877437,
+      "balance": 3.9898639947466563e-17,
+      "cap": 8.326672684688674e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 20,
+      "split": "train",
+      "minimum_gpu_capacity": 155.3135111111112,
+      "analytic_headroom": 0.2958492434461164,
+      "feasible": true,
+      "headroom": 0.2958492434461174,
+      "physical_headroom": 0.2958492434461174,
+      "balance": 1.1275702593849246e-17,
+      "cap": 1.6653345369377348e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 21,
+      "split": "train",
+      "minimum_gpu_capacity": 178.14525252525303,
+      "analytic_headroom": 0.243787588040771,
+      "feasible": true,
+      "headroom": 0.24378758804077214,
+      "physical_headroom": 0.24378758804077214,
+      "balance": 4.336808689942018e-18,
+      "cap": 5.551115123125783e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 22,
+      "split": "train",
+      "minimum_gpu_capacity": 159.0823391812851,
+      "analytic_headroom": 0.287255443056022,
+      "feasible": true,
+      "headroom": 0.2872554430560229,
+      "physical_headroom": 0.2872554430560229,
+      "balance": 1.3877787807814457e-17,
+      "cap": 1.942890293094024e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 23,
+      "split": "train",
+      "minimum_gpu_capacity": 139.9673099415209,
+      "analytic_headroom": 0.3308421343772241,
+      "feasible": true,
+      "headroom": 0.3308421343772248,
+      "physical_headroom": 0.3308421343772248,
+      "balance": 3.469446951953614e-17,
+      "cap": 8.326672684688674e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 24,
+      "split": "train",
+      "minimum_gpu_capacity": 164.73247474747438,
+      "analytic_headroom": 0.2743718260990502,
+      "feasible": true,
+      "headroom": 0.2743718260990513,
+      "physical_headroom": 0.2743718260990513,
+      "balance": 8.673617379884035e-18,
+      "cap": 8.326672684688674e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 25,
+      "split": "train",
+      "minimum_gpu_capacity": 177.19555555555635,
+      "analytic_headroom": 0.24595311696294175,
+      "feasible": true,
+      "headroom": 0.24595311696294297,
+      "physical_headroom": 0.24595311696294297,
+      "balance": 6.938893903907228e-18,
+      "cap": 1.942890293094024e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 26,
+      "split": "train",
+      "minimum_gpu_capacity": 192.68895061728384,
+      "analytic_headroom": 0.2106245898860309,
+      "feasible": true,
+      "headroom": 0.21062458988603233,
+      "physical_headroom": 0.21062458988603233,
+      "balance": 2.6020852139652106e-17,
+      "cap": 8.326672684688674e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 27,
+      "split": "train",
+      "minimum_gpu_capacity": 143.19751633986934,
+      "analytic_headroom": 0.3234765160764319,
+      "feasible": true,
+      "headroom": 0.32347651607643263,
+      "physical_headroom": 0.32347651607643263,
+      "balance": 1.3444106938820255e-17,
+      "cap": 2.7755575615628914e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 28,
+      "split": "train",
+      "minimum_gpu_capacity": 173.91534188034183,
+      "analytic_headroom": 0.2534327634304313,
+      "feasible": true,
+      "headroom": 0.25343276343043225,
+      "physical_headroom": 0.25343276343043225,
+      "balance": 1.1709383462843448e-17,
+      "cap": 5.551115123125783e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 29,
+      "split": "train",
+      "minimum_gpu_capacity": 141.2447058823519,
+      "analytic_headroom": 0.3279293759466938,
+      "feasible": true,
+      "headroom": 0.3279293759466946,
+      "physical_headroom": 0.3279293759466946,
+      "balance": 6.938893903907228e-18,
+      "cap": 5.551115123125783e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 30,
+      "split": "train",
+      "minimum_gpu_capacity": 134.954938271605,
+      "analytic_headroom": 0.34227150202418977,
+      "feasible": true,
+      "headroom": 0.3422715020241906,
+      "physical_headroom": 0.3422715020241906,
+      "balance": 6.938893903907228e-18,
+      "cap": 8.326672684688674e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 31,
+      "split": "train",
+      "minimum_gpu_capacity": 137.70201388888873,
+      "analytic_headroom": 0.33600753373700215,
+      "feasible": true,
+      "headroom": 0.33600753373700293,
+      "physical_headroom": 0.33600753373700293,
+      "balance": 2.0816681711721685e-17,
+      "cap": 8.326672684688674e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 32,
+      "split": "train",
+      "minimum_gpu_capacity": 163.3976608187134,
+      "analytic_headroom": 0.2774155108328991,
+      "feasible": true,
+      "headroom": 0.2774155108329002,
+      "physical_headroom": 0.2774155108329002,
+      "balance": 6.938893903907228e-18,
+      "cap": 2.7755575615628914e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 33,
+      "split": "train",
+      "minimum_gpu_capacity": 263.13118055555606,
+      "analytic_headroom": 0.050000000000000044,
+      "feasible": true,
+      "headroom": 0.05000000000000086,
+      "physical_headroom": 0.05000000000000086,
+      "balance": 1.0408340855860843e-17,
+      "cap": 5.551115123125783e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 34,
+      "split": "train",
+      "minimum_gpu_capacity": 190.509365079366,
+      "analytic_headroom": 0.2155945494324047,
+      "feasible": true,
+      "headroom": 0.2155945494324059,
+      "physical_headroom": 0.2155945494324059,
+      "balance": 9.540979117872439e-18,
+      "cap": 8.326672684688674e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 35,
+      "split": "train",
+      "minimum_gpu_capacity": 156.4572222222221,
+      "analytic_headroom": 0.2932413173720659,
+      "feasible": true,
+      "headroom": 0.2932413173720668,
+      "physical_headroom": 0.2932413173720668,
+      "balance": 1.5612511283791264e-17,
+      "cap": 1.3877787807814457e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 36,
+      "split": "train",
+      "minimum_gpu_capacity": 98.10333333333347,
+      "analytic_headroom": 0.42630169151476793,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.42630169151476827,
+      "balance": 1.3877787807814457e-17,
+      "cap": 5.828670879282072e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 37,
+      "split": "train",
+      "minimum_gpu_capacity": 80.4312222222224,
+      "analytic_headroom": 0.4665981955029296,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.4665981955029296,
+      "balance": 1.3010426069826053e-17,
+      "cap": 1.1102230246251565e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 38,
+      "split": "train",
+      "minimum_gpu_capacity": 87.96787037037046,
+      "analytic_headroom": 0.4494128931782813,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.4494128931782814,
+      "balance": 2.7755575615628914e-17,
+      "cap": 1.3877787807814457e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 39,
+      "split": "train",
+      "minimum_gpu_capacity": 147.89947089947069,
+      "analytic_headroom": 0.3127549712948352,
+      "feasible": true,
+      "headroom": 0.3127549712948361,
+      "physical_headroom": 0.3127549712948361,
+      "balance": 2.0383000842727483e-17,
+      "cap": 3.608224830031759e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 40,
+      "split": "train",
+      "minimum_gpu_capacity": 133.8285396825394,
+      "analytic_headroom": 0.34483995154055813,
+      "feasible": true,
+      "headroom": 0.34483995154055863,
+      "physical_headroom": 0.34483995154055863,
+      "balance": 8.673617379884035e-18,
+      "cap": 2.7755575615628914e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 41,
+      "split": "train",
+      "minimum_gpu_capacity": 145.78611111111087,
+      "analytic_headroom": 0.31757392080260044,
+      "feasible": true,
+      "headroom": 0.3175739208026012,
+      "physical_headroom": 0.3175739208026012,
+      "balance": 1.0408340855860843e-17,
+      "cap": 2.498001805406602e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 42,
+      "split": "train",
+      "minimum_gpu_capacity": 135.79942460317486,
+      "analytic_headroom": 0.3403458777105979,
+      "feasible": true,
+      "headroom": 0.3403458777105986,
+      "physical_headroom": 0.3403458777105986,
+      "balance": 2.185751579730777e-16,
+      "cap": 1.1102230246251565e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 43,
+      "split": "train",
+      "minimum_gpu_capacity": 127.24976034858425,
+      "analytic_headroom": 0.3598410912460051,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.35984109124600566,
+      "balance": 6.938893903907228e-18,
+      "cap": 6.38378239159465e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 44,
+      "split": "train",
+      "minimum_gpu_capacity": 115.60041394335504,
+      "analytic_headroom": 0.38640429758430445,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.386404297584305,
+      "balance": 3.2959746043559335e-17,
+      "cap": 1.1379786002407855e-15,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 45,
+      "split": "train",
+      "minimum_gpu_capacity": 149.9678222222227,
+      "analytic_headroom": 0.30803865150699766,
+      "feasible": true,
+      "headroom": 0.30803865150699844,
+      "physical_headroom": 0.30803865150699844,
+      "balance": 1.3877787807814457e-17,
+      "cap": 1.3877787807814457e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 46,
+      "split": "train",
+      "minimum_gpu_capacity": 114.1574074074076,
+      "analytic_headroom": 0.38969468650644,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.38969468650644046,
+      "balance": 6.342582709040201e-18,
+      "cap": 2.220446049250313e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 47,
+      "split": "train",
+      "minimum_gpu_capacity": 121.05179138322012,
+      "analytic_headroom": 0.3739738951629218,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.37397389516292234,
+      "balance": 3.230922474006803e-17,
+      "cap": 4.440892098500626e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 48,
+      "split": "train",
+      "minimum_gpu_capacity": 134.19061224489832,
+      "analytic_headroom": 0.3440143422875738,
+      "feasible": true,
+      "headroom": 0.3440143422875744,
+      "physical_headroom": 0.3440143422875744,
+      "balance": 2.949029909160572e-17,
+      "cap": 2.220446049250313e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 49,
+      "split": "train",
+      "minimum_gpu_capacity": 144.2386039886041,
+      "analytic_headroom": 0.3211025952513818,
+      "feasible": true,
+      "headroom": 0.3211025952513826,
+      "physical_headroom": 0.3211025952513826,
+      "balance": 1.734723475976807e-17,
+      "cap": 1.3877787807814457e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 50,
+      "split": "train",
+      "minimum_gpu_capacity": 179.9811594202902,
+      "analytic_headroom": 0.2396012953532355,
+      "feasible": true,
+      "headroom": 0.23960129535323677,
+      "physical_headroom": 0.23960129535323677,
+      "balance": 7.979727989493313e-17,
+      "cap": 8.326672684688674e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 51,
+      "split": "train",
+      "minimum_gpu_capacity": 136.62264775413723,
+      "analytic_headroom": 0.33846873837068925,
+      "feasible": true,
+      "headroom": 0.33846873837068997,
+      "physical_headroom": 0.33846873837068997,
+      "balance": 8.239936510889834e-18,
+      "cap": 1.942890293094024e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 52,
+      "split": "train",
+      "minimum_gpu_capacity": 127.71155887230536,
+      "analytic_headroom": 0.3587880837170317,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.35878808371703236,
+      "balance": 2.6129272356900657e-17,
+      "cap": 5.828670879282072e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 53,
+      "split": "train",
+      "minimum_gpu_capacity": 138.11981859410432,
+      "analytic_headroom": 0.3350548422976977,
+      "feasible": true,
+      "headroom": 0.33505484229769844,
+      "physical_headroom": 0.33505484229769844,
+      "balance": 1.214306433183765e-17,
+      "cap": 1.3877787807814457e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 54,
+      "split": "train",
+      "minimum_gpu_capacity": 170.4411111111112,
+      "analytic_headroom": 0.2613548137824163,
+      "feasible": true,
+      "headroom": 0.2613548137824174,
+      "physical_headroom": 0.2613548137824174,
+      "balance": 1.3335686721571705e-17,
+      "cap": 1.942890293094024e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 55,
+      "split": "test",
+      "minimum_gpu_capacity": 170.44549206349222,
+      "analytic_headroom": 0.2613448241969059,
+      "feasible": true,
+      "headroom": 0.261344824196907,
+      "physical_headroom": 0.261344824196907,
+      "balance": 1.6371452804531117e-17,
+      "cap": 8.326672684688674e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 56,
+      "split": "test",
+      "minimum_gpu_capacity": 123.03245098039187,
+      "analytic_headroom": 0.3694575328078639,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.3694575328078645,
+      "balance": 6.071532165918825e-18,
+      "cap": 4.163336342344337e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 57,
+      "split": "test",
+      "minimum_gpu_capacity": 137.27046296296302,
+      "analytic_headroom": 0.33699156974143435,
+      "feasible": true,
+      "headroom": 0.3369915697414352,
+      "physical_headroom": 0.3369915697414352,
+      "balance": 2.47198095326695e-17,
+      "cap": 5.273559366969494e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 58,
+      "split": "test",
+      "minimum_gpu_capacity": 124.87851153039779,
+      "analytic_headroom": 0.36524808743668075,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.36524808743668147,
+      "balance": 1.214306433183765e-17,
+      "cap": 6.938893903907228e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 59,
+      "split": "test",
+      "minimum_gpu_capacity": 137.65174291938962,
+      "analytic_headroom": 0.33612216318394106,
+      "feasible": true,
+      "headroom": 0.3361221631839419,
+      "physical_headroom": 0.3361221631839419,
+      "balance": 5.0306980803327406e-17,
+      "cap": 1.3877787807814457e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 60,
+      "split": "test",
+      "minimum_gpu_capacity": 157.9687338501302,
+      "analytic_headroom": 0.2897947209830325,
+      "feasible": true,
+      "headroom": 0.28979472098303327,
+      "physical_headroom": 0.28979472098303327,
+      "balance": 1.214306433183765e-17,
+      "cap": 8.326672684688674e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 61,
+      "split": "test",
+      "minimum_gpu_capacity": 136.7424624624627,
+      "analytic_headroom": 0.3381955331015779,
+      "feasible": true,
+      "headroom": 0.3381955331015786,
+      "physical_headroom": 0.3381955331015786,
+      "balance": 2.5153490401663703e-17,
+      "cap": 3.0531133177191805e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 62,
+      "split": "test",
+      "minimum_gpu_capacity": 139.8906763285025,
+      "analytic_headroom": 0.33101687675368424,
+      "feasible": true,
+      "headroom": 0.331016876753685,
+      "physical_headroom": 0.331016876753685,
+      "balance": 1.6534083130403943e-17,
+      "cap": 1.942890293094024e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 63,
+      "split": "test",
+      "minimum_gpu_capacity": 166.3269601677153,
+      "analytic_headroom": 0.27073603025712584,
+      "feasible": true,
+      "headroom": 0.270736030257127,
+      "physical_headroom": 0.270736030257127,
+      "balance": 3.0878077872387166e-16,
+      "cap": 3.608224830031759e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 64,
+      "split": "test",
+      "minimum_gpu_capacity": 147.60690972222253,
+      "analytic_headroom": 0.3134220784996077,
+      "feasible": true,
+      "headroom": 0.31342207849960857,
+      "physical_headroom": 0.31342207849960857,
+      "balance": 5.551115123125783e-17,
+      "cap": 8.326672684688674e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 65,
+      "split": "test",
+      "minimum_gpu_capacity": 147.1323148148153,
+      "analytic_headroom": 0.3145042647454305,
+      "feasible": true,
+      "headroom": 0.3145042647454314,
+      "physical_headroom": 0.3145042647454314,
+      "balance": 6.938893903907228e-18,
+      "cap": 4.163336342344337e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 66,
+      "split": "test",
+      "minimum_gpu_capacity": 107.09565217391332,
+      "analytic_headroom": 0.40579712305976207,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.40579712305976234,
+      "balance": 6.938893903907228e-18,
+      "cap": 2.7755575615628914e-17,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 67,
+      "split": "test",
+      "minimum_gpu_capacity": 114.10984444444536,
+      "analytic_headroom": 0.3898031410716386,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.389803141071639,
+      "balance": 2.6020852139652106e-17,
+      "cap": 3.0531133177191805e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 68,
+      "split": "test",
+      "minimum_gpu_capacity": 151.04174897119293,
+      "analytic_headroom": 0.3055898499319746,
+      "feasible": true,
+      "headroom": 0.30558984993197535,
+      "physical_headroom": 0.30558984993197535,
+      "balance": 1.3877787807814457e-17,
+      "cap": 3.0531133177191805e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 69,
+      "split": "test",
+      "minimum_gpu_capacity": 154.5588552188547,
+      "analytic_headroom": 0.29757003356455813,
+      "feasible": true,
+      "headroom": 0.2975700335645589,
+      "physical_headroom": 0.2975700335645589,
+      "balance": 3.3046482217358175e-16,
+      "cap": 4.718447854656915e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 70,
+      "split": "test",
+      "minimum_gpu_capacity": 181.61285714285623,
+      "analytic_headroom": 0.23588064684828602,
+      "feasible": true,
+      "headroom": 0.2358806468482872,
+      "physical_headroom": 0.2358806468482872,
+      "balance": 6.938893903907228e-18,
+      "cap": 1.3877787807814457e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 71,
+      "split": "test",
+      "minimum_gpu_capacity": 158.6761038961045,
+      "analytic_headroom": 0.2881817535396133,
+      "feasible": true,
+      "headroom": 0.28818175353961417,
+      "physical_headroom": 0.28818175353961417,
+      "balance": 3.2959746043559335e-17,
+      "cap": 4.163336342344337e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 72,
+      "split": "test",
+      "minimum_gpu_capacity": 175.39940329218086,
+      "analytic_headroom": 0.25004875988807873,
+      "feasible": true,
+      "headroom": 0.25004875988807984,
+      "physical_headroom": 0.25004875988807984,
+      "balance": 1.9949319973733282e-17,
+      "cap": 3.0531133177191805e-16,
+      "rate_violation": 0.0
+    },
+    {
+      "day": 73,
+      "split": "test",
+      "minimum_gpu_capacity": 125.13612612612695,
+      "analytic_headroom": 0.3646606665270373,
+      "feasible": true,
+      "headroom": 0.35,
+      "physical_headroom": 0.3646606665270378,
+      "balance": 2.6020852139652106e-17,
+      "cap": 3.608224830031759e-16,
+      "rate_violation": 0.0
+    }
+  ],
+  "train_summary": {
+    "days": 42,
+    "reference_infeasible": 0,
+    "active_workload_days": 33,
+    "policy_capped_days": 9,
+    "distinct_scores": 34,
+    "physical_min_median_max": [
+      0.05000000000000086,
+      0.3222895556639076,
+      0.4958808436539766
+    ],
+    "score_min_median_max": [
+      0.05000000000000086,
+      0.3222895556639076,
+      0.35
+    ]
+  },
+  "test_summary": {
+    "days": 19,
+    "reference_infeasible": 0,
+    "active_workload_days": 14,
+    "policy_capped_days": 5,
+    "distinct_scores": 15,
+    "physical_min_median_max": [
+      0.2358806468482872,
+      0.3145042647454314,
+      0.40579712305976234
+    ],
+    "score_min_median_max": [
+      0.2358806468482872,
+      0.3145042647454314,
+      0.35
+    ]
+  },
+  "training": {
+    "capacity_scale": 438.5519675925934,
+    "training_peak": 263.13118055555606,
+    "training_days": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "training_scores": [
+      0.3251127684532851,
+      0.3376108214929779,
+      0.23226091162931914,
+      0.35,
+      0.3028494527312515,
+      0.11172735785081615,
+      0.20723154351877437,
+      0.2958492434461174,
+      0.24378758804077214,
+      0.2872554430560229,
+      0.3308421343772248,
+      0.2743718260990513,
+      0.24595311696294297,
+      0.21062458988603233,
+      0.32347651607643263,
+      0.25343276343043225,
+      0.3279293759466946,
+      0.3422715020241906,
+      0.33600753373700293,
+      0.2774155108329002,
+      0.05000000000000086,
+      0.2155945494324059,
+      0.2932413173720668,
+      0.35,
+      0.35,
+      0.35,
+      0.3127549712948361,
+      0.34483995154055863,
+      0.3175739208026012,
+      0.3403458777105986,
+      0.35,
+      0.35,
+      0.30803865150699844,
+      0.35,
+      0.35,
+      0.3440143422875744,
+      0.3211025952513826,
+      0.23960129535323677,
+      0.33846873837068997,
+      0.35,
+      0.33505484229769844,
+      0.2613548137824174
+    ],
+    "reliability_caps": {
+      "0.1": 0.2155945494324059,
+      "0.05": 0.20723154351877437,
+      "0.01": 0.05000000000000086
+    },
+    "menus": {
+      "1": {
+        "J": 0.5537539541664461,
+        "gain_percent": 19.730584684636998,
+        "mean_release": 0.23226091162931914,
+        "mean_capacity": 0.7893565469775914,
+        "mean_speed": 0.6322609116293192,
+        "heldout_shortfall": 0.008717298034727764,
+        "heldout_failure": 0.11904761904761903,
+        "allocations": [
+          {
+            "type": 0.4,
+            "r": 0.23226091162931914,
+            "q": 0.7893565469775915,
+            "s": 0.6322609116293192,
+            "fb_release": 0.2743718260990513
+          },
+          {
+            "type": 0.525,
+            "r": 0.23226091162931914,
+            "q": 0.7893565469775915,
+            "s": 0.6322609116293192,
+            "fb_release": 0.2534722222222221
+          },
+          {
+            "type": 0.65,
+            "r": 0.23226091162931914,
+            "q": 0.7893565469775915,
+            "s": 0.6322609116293192,
+            "fb_release": 0.24595311696294297
+          },
+          {
+            "type": 0.775,
+            "r": 0.23226091162931914,
+            "q": 0.7893565469775915,
+            "s": 0.6322609116293192,
+            "fb_release": 0.24378758804077214
+          },
+          {
+            "type": 0.9,
+            "r": 0.23226091162931914,
+            "q": 0.7893565469775915,
+            "s": 0.6322609116293192,
+            "fb_release": 0.23226091162931914
+          }
+        ],
+        "contract_capacity_failure": 0.023809523809523808,
+        "contract_capacity_shortfall": 0.0010215324917077816,
+        "worst_type_reference_failure": 0.11904761904761904,
+        "policy_cap": 0.35
+      },
+      "2": {
+        "J": 0.5567873385330089,
+        "gain_percent": 20.386451574704623,
+        "mean_release": 0.22659233024085867,
+        "mean_capacity": 0.7859553981445152,
+        "mean_speed": 0.6265923302408587,
+        "heldout_shortfall": 0.008446819394987115,
+        "heldout_failure": 0.11904761904761904,
+        "allocations": [
+          {
+            "type": 0.4,
+            "r": 0.24595311696294297,
+            "q": 0.7975718701777658,
+            "s": 0.645953116962943,
+            "fb_release": 0.2743718260990513
+          },
+          {
+            "type": 0.525,
+            "r": 0.24595311696294297,
+            "q": 0.7975718701777658,
+            "s": 0.645953116962943,
+            "fb_release": 0.2534722222222221
+          },
+          {
+            "type": 0.65,
+            "r": 0.20723154351877437,
+            "q": 0.7743389261112646,
+            "s": 0.6072315435187744,
+            "fb_release": 0.24595311696294297
+          },
+          {
+            "type": 0.775,
+            "r": 0.20723154351877437,
+            "q": 0.7743389261112646,
+            "s": 0.6072315435187744,
+            "fb_release": 0.24378758804077214
+          },
+          {
+            "type": 0.9,
+            "r": 0.20723154351877437,
+            "q": 0.7743389261112646,
+            "s": 0.6072315435187744,
+            "fb_release": 0.23226091162931914
+          }
+        ],
+        "contract_capacity_failure": 0.023809523809523808,
+        "contract_capacity_shortfall": 0.000967546002293873,
+        "worst_type_reference_failure": 0.19047619047619047,
+        "policy_cap": 0.35
+      },
+      "4": {
+        "J": 0.5580148001563444,
+        "gain_percent": 20.651848682452844,
+        "mean_release": 0.20614542938655406,
+        "mean_capacity": 0.7736872576319325,
+        "mean_speed": 0.6061454293865541,
+        "heldout_shortfall": 0.007788710946768588,
+        "heldout_failure": 0.13095238095238093,
+        "allocations": [
+          {
+            "type": 0.4,
+            "r": 0.2534722222222221,
+            "q": 0.8020833333333333,
+            "s": 0.6534722222222221,
+            "fb_release": 0.2743718260990513
+          },
+          {
+            "type": 0.525,
+            "r": 0.24378758804077214,
+            "q": 0.7962725528244633,
+            "s": 0.6437875880407722,
+            "fb_release": 0.2534722222222221
+          },
+          {
+            "type": 0.65,
+            "r": 0.2155945494324059,
+            "q": 0.7793567296594436,
+            "s": 0.615594549432406,
+            "fb_release": 0.24595311696294297
+          },
+          {
+            "type": 0.775,
+            "r": 0.11172735785081615,
+            "q": 0.7170364147104897,
+            "s": 0.5117273578508161,
+            "fb_release": 0.24378758804077214
+          },
+          {
+            "type": 0.9,
+            "r": 0.11172735785081615,
+            "q": 0.7170364147104897,
+            "s": 0.5117273578508161,
+            "fb_release": 0.23226091162931914
+          }
+        ],
+        "contract_capacity_failure": 0.017857142857142856,
+        "contract_capacity_shortfall": 0.0008044151421318905,
+        "worst_type_reference_failure": 0.23809523809523808,
+        "policy_cap": 0.35
+      },
+      "None": {
+        "J": 0.5586043648899575,
+        "gain_percent": 20.77932213836917,
+        "mean_release": 0.2126442666704446,
+        "mean_capacity": 0.7775865600022668,
+        "mean_speed": 0.6126442666704446,
+        "heldout_shortfall": 0.0083625937752468,
+        "heldout_failure": 0.12594397744890876,
+        "allocations": [
+          {
+            "type": 0.4,
+            "r": 0.2743718260990513,
+            "q": 0.8146230956594308,
+            "s": 0.6743718260990513,
+            "fb_release": 0.2743718260990513
+          },
+          {
+            "type": 0.525,
+            "r": 0.24595311696294297,
+            "q": 0.7975718701777658,
+            "s": 0.645953116962943,
+            "fb_release": 0.2534722222222221
+          },
+          {
+            "type": 0.65,
+            "r": 0.23226091162931914,
+            "q": 0.7893565469775915,
+            "s": 0.6322609116293192,
+            "fb_release": 0.24595311696294297
+          },
+          {
+            "type": 0.775,
+            "r": 0.20723154351877437,
+            "q": 0.7743389261112646,
+            "s": 0.6072315435187744,
+            "fb_release": 0.24378758804077214
+          },
+          {
+            "type": 0.9,
+            "r": 0.05000000000000086,
+            "q": 0.6800000000000005,
+            "s": 0.4500000000000009,
+            "fb_release": 0.23226091162931914
+          }
+        ],
+        "contract_capacity_failure": 0.020317460031746004,
+        "contract_capacity_shortfall": 0.0008776220969797591,
+        "worst_type_reference_failure": 0.2619047619047619,
+        "policy_cap": 0.35
+      }
+    },
+    "reliability": {
+      "0.1": {
+        "J": 0.554598936140138,
+        "gain_percent": 19.913283489759557,
+        "mean_release": 0.19472044550870735,
+        "mean_capacity": 0.7668322673052244,
+        "mean_speed": 0.5947204455087074,
+        "heldout_shortfall": 0.005695147452522338,
+        "heldout_failure": 0.07639206123009445,
+        "allocations": [
+          {
+            "type": 0.4,
+            "r": 0.2155945494324059,
+            "q": 0.7793567296594436,
+            "s": 0.615594549432406,
+            "fb_release": 0.2155945494324059
+          },
+          {
+            "type": 0.525,
+            "r": 0.2155945494324059,
+            "q": 0.7793567296594436,
+            "s": 0.615594549432406,
+            "fb_release": 0.2155945494324059
+          },
+          {
+            "type": 0.65,
+            "r": 0.2155945494324059,
+            "q": 0.7793567296594436,
+            "s": 0.615594549432406,
+            "fb_release": 0.2155945494324059
+          },
+          {
+            "type": 0.775,
+            "r": 0.20723154351877437,
+            "q": 0.7743389261112646,
+            "s": 0.6072315435187744,
+            "fb_release": 0.2155945494324059
+          },
+          {
+            "type": 0.9,
+            "r": 0.05000000000000086,
+            "q": 0.6800000000000005,
+            "s": 0.4500000000000009,
+            "fb_release": 0.2155945494324059
+          }
+        ],
+        "contract_capacity_failure": 0.020317460031746008,
+        "contract_capacity_shortfall": 0.0007069190382965469,
+        "worst_type_reference_failure": 0.09523809523809523,
+        "policy_cap": 0.2155945494324059
+      },
+      "0.05": {
+        "J": 0.552663756138365,
+        "gain_percent": 19.49486619207892,
+        "mean_release": 0.18904197720371357,
+        "mean_capacity": 0.763425186322228,
+        "mean_speed": 0.5890419772037135,
+        "heldout_shortfall": 0.005213292262244538,
+        "heldout_failure": 0.04362787758646685,
+        "allocations": [
+          {
+            "type": 0.4,
+            "r": 0.20723154351877437,
+            "q": 0.7743389261112646,
+            "s": 0.6072315435187744,
+            "fb_release": 0.20723154351877437
+          },
+          {
+            "type": 0.525,
+            "r": 0.20723154351877437,
+            "q": 0.7743389261112646,
+            "s": 0.6072315435187744,
+            "fb_release": 0.20723154351877437
+          },
+          {
+            "type": 0.65,
+            "r": 0.20723154351877437,
+            "q": 0.7743389261112646,
+            "s": 0.6072315435187744,
+            "fb_release": 0.20723154351877437
+          },
+          {
+            "type": 0.775,
+            "r": 0.20723154351877437,
+            "q": 0.7743389261112646,
+            "s": 0.6072315435187744,
+            "fb_release": 0.20723154351877437
+          },
+          {
+            "type": 0.9,
+            "r": 0.05000000000000086,
+            "q": 0.6800000000000005,
+            "s": 0.4500000000000009,
+            "fb_release": 0.20723154351877437
+          }
+        ],
+        "contract_capacity_failure": 0.020317460031746008,
+        "contract_capacity_shortfall": 0.0006528383877727968,
+        "worst_type_reference_failure": 0.047619047619047616,
+        "policy_cap": 0.20723154351877437
+      },
+      "0.01": {
+        "J": 0.49090000000000056,
+        "gain_percent": 6.140540540540651,
+        "mean_release": 0.05000000000000086,
+        "mean_capacity": 0.6800000000000005,
+        "mean_speed": 0.45000000000000084,
+        "heldout_shortfall": 0.0,
+        "heldout_failure": 0.0,
+        "allocations": [
+          {
+            "type": 0.4,
+            "r": 0.05000000000000086,
+            "q": 0.6800000000000005,
+            "s": 0.4500000000000009,
+            "fb_release": 0.05000000000000086
+          },
+          {
+            "type": 0.525,
+            "r": 0.05000000000000086,
+            "q": 0.6800000000000005,
+            "s": 0.4500000000000009,
+            "fb_release": 0.05000000000000086
+          },
+          {
+            "type": 0.65,
+            "r": 0.05000000000000086,
+            "q": 0.6800000000000005,
+            "s": 0.4500000000000009,
+            "fb_release": 0.05000000000000086
+          },
+          {
+            "type": 0.775,
+            "r": 0.05000000000000086,
+            "q": 0.6800000000000005,
+            "s": 0.4500000000000009,
+            "fb_release": 0.05000000000000086
+          },
+          {
+            "type": 0.9,
+            "r": 0.05000000000000086,
+            "q": 0.6800000000000005,
+            "s": 0.4500000000000009,
+            "fb_release": 0.05000000000000086
+          }
+        ],
+        "contract_capacity_failure": 0.0,
+        "contract_capacity_shortfall": 0.0,
+        "worst_type_reference_failure": 0.0,
+        "policy_cap": 0.05000000000000086
+      }
+    }
+  },
+  "holdout_menus": {
+    "1": {
+      "J": 0.5537539541664461,
+      "gain_percent": 19.730584684636998,
+      "mean_release": 0.23226091162931914,
+      "mean_capacity": 0.7893565469775914,
+      "mean_speed": 0.6322609116293192,
+      "heldout_shortfall": 0.0,
+      "heldout_failure": 0.0,
+      "allocations": [
+        {
+          "type": 0.4,
+          "r": 0.23226091162931914,
+          "q": 0.7893565469775915,
+          "s": 0.6322609116293192,
+          "fb_release": 0.2743718260990513
+        },
+        {
+          "type": 0.525,
+          "r": 0.23226091162931914,
+          "q": 0.7893565469775915,
+          "s": 0.6322609116293192,
+          "fb_release": 0.2534722222222221
+        },
+        {
+          "type": 0.65,
+          "r": 0.23226091162931914,
+          "q": 0.7893565469775915,
+          "s": 0.6322609116293192,
+          "fb_release": 0.24595311696294297
+        },
+        {
+          "type": 0.775,
+          "r": 0.23226091162931914,
+          "q": 0.7893565469775915,
+          "s": 0.6322609116293192,
+          "fb_release": 0.24378758804077214
+        },
+        {
+          "type": 0.9,
+          "r": 0.23226091162931914,
+          "q": 0.7893565469775915,
+          "s": 0.6322609116293192,
+          "fb_release": 0.23226091162931914
+        }
+      ],
+      "contract_capacity_failure": 0.0,
+      "contract_capacity_shortfall": 0.0,
+      "worst_type_reference_failure": 0.0,
+      "policy_cap": 0.35
+    },
+    "2": {
+      "J": 0.5567873385330089,
+      "gain_percent": 20.386451574704623,
+      "mean_release": 0.22659233024085867,
+      "mean_capacity": 0.7859553981445152,
+      "mean_speed": 0.6265923302408587,
+      "heldout_shortfall": 0.0002650650030172575,
+      "heldout_failure": 0.02631578947368421,
+      "allocations": [
+        {
+          "type": 0.4,
+          "r": 0.24595311696294297,
+          "q": 0.7975718701777658,
+          "s": 0.645953116962943,
+          "fb_release": 0.2743718260990513
+        },
+        {
+          "type": 0.525,
+          "r": 0.24595311696294297,
+          "q": 0.7975718701777658,
+          "s": 0.645953116962943,
+          "fb_release": 0.2534722222222221
+        },
+        {
+          "type": 0.65,
+          "r": 0.20723154351877437,
+          "q": 0.7743389261112646,
+          "s": 0.6072315435187744,
+          "fb_release": 0.24595311696294297
+        },
+        {
+          "type": 0.775,
+          "r": 0.20723154351877437,
+          "q": 0.7743389261112646,
+          "s": 0.6072315435187744,
+          "fb_release": 0.24378758804077214
+        },
+        {
+          "type": 0.9,
+          "r": 0.20723154351877437,
+          "q": 0.7743389261112646,
+          "s": 0.6072315435187744,
+          "fb_release": 0.23226091162931914
+        }
+      ],
+      "contract_capacity_failure": 0.0,
+      "contract_capacity_shortfall": 0.0,
+      "worst_type_reference_failure": 0.05263157894736842,
+      "policy_cap": 0.35
+    },
+    "4": {
+      "J": 0.5580148001563444,
+      "gain_percent": 20.651848682452844,
+      "mean_release": 0.20614542938655406,
+      "mean_capacity": 0.7736872576319325,
+      "mean_speed": 0.6061454293865541,
+      "heldout_shortfall": 0.0003805523539547647,
+      "heldout_failure": 0.039473684210526314,
+      "allocations": [
+        {
+          "type": 0.4,
+          "r": 0.2534722222222221,
+          "q": 0.8020833333333333,
+          "s": 0.6534722222222221,
+          "fb_release": 0.2743718260990513
+        },
+        {
+          "type": 0.525,
+          "r": 0.24378758804077214,
+          "q": 0.7962725528244633,
+          "s": 0.6437875880407722,
+          "fb_release": 0.2534722222222221
+        },
+        {
+          "type": 0.65,
+          "r": 0.2155945494324059,
+          "q": 0.7793567296594436,
+          "s": 0.615594549432406,
+          "fb_release": 0.24595311696294297
+        },
+        {
+          "type": 0.775,
+          "r": 0.11172735785081615,
+          "q": 0.7170364147104897,
+          "s": 0.5117273578508161,
+          "fb_release": 0.24378758804077214
+        },
+        {
+          "type": 0.9,
+          "r": 0.11172735785081615,
+          "q": 0.7170364147104897,
+          "s": 0.5117273578508161,
+          "fb_release": 0.23226091162931914
+        }
+      ],
+      "contract_capacity_failure": 0.0,
+      "contract_capacity_shortfall": 0.0,
+      "worst_type_reference_failure": 0.10526315789473684,
+      "policy_cap": 0.35
+    },
+    "None": {
+      "J": 0.5586043648899575,
+      "gain_percent": 20.77932213836917,
+      "mean_release": 0.21264426667044478,
+      "mean_capacity": 0.7775865600022669,
+      "mean_speed": 0.6126442666704448,
+      "heldout_shortfall": 0.0005091881977108128,
+      "heldout_failure": 0.0437555292330846,
+      "allocations": [
+        {
+          "type": 0.4,
+          "r": 0.2743718260990513,
+          "q": 0.8146230956594308,
+          "s": 0.6743718260990513,
+          "fb_release": 0.2743718260990513
+        },
+        {
+          "type": 0.525,
+          "r": 0.24595311696294297,
+          "q": 0.7975718701777658,
+          "s": 0.645953116962943,
+          "fb_release": 0.2534722222222221
+        },
+        {
+          "type": 0.65,
+          "r": 0.23226091162931914,
+          "q": 0.7893565469775915,
+          "s": 0.6322609116293192,
+          "fb_release": 0.24595311696294297
+        },
+        {
+          "type": 0.775,
+          "r": 0.20723154351877437,
+          "q": 0.7743389261112646,
+          "s": 0.6072315435187744,
+          "fb_release": 0.24378758804077214
+        },
+        {
+          "type": 0.9,
+          "r": 0.05000000000000086,
+          "q": 0.6800000000000005,
+          "s": 0.4500000000000009,
+          "fb_release": 0.23226091162931914
+        }
+      ],
+      "contract_capacity_failure": 0.0,
+      "contract_capacity_shortfall": 0.0,
+      "worst_type_reference_failure": 0.21052631578947367,
+      "policy_cap": 0.35
+    }
+  },
+  "holdout_reliability": {
+    "0.1": {
+      "J": 0.554598936140138,
+      "gain_percent": 19.913283489759557,
+      "mean_release": 0.19472044550870743,
+      "mean_capacity": 0.7668322673052245,
+      "mean_speed": 0.5947204455087075,
+      "heldout_shortfall": 0.0,
+      "heldout_failure": 0.0,
+      "allocations": [
+        {
+          "type": 0.4,
+          "r": 0.2155945494324059,
+          "q": 0.7793567296594436,
+          "s": 0.615594549432406,
+          "fb_release": 0.2155945494324059
+        },
+        {
+          "type": 0.525,
+          "r": 0.2155945494324059,
+          "q": 0.7793567296594436,
+          "s": 0.615594549432406,
+          "fb_release": 0.2155945494324059
+        },
+        {
+          "type": 0.65,
+          "r": 0.2155945494324059,
+          "q": 0.7793567296594436,
+          "s": 0.615594549432406,
+          "fb_release": 0.2155945494324059
+        },
+        {
+          "type": 0.775,
+          "r": 0.20723154351877437,
+          "q": 0.7743389261112646,
+          "s": 0.6072315435187744,
+          "fb_release": 0.2155945494324059
+        },
+        {
+          "type": 0.9,
+          "r": 0.05000000000000086,
+          "q": 0.6800000000000005,
+          "s": 0.4500000000000009,
+          "fb_release": 0.2155945494324059
+        }
+      ],
+      "contract_capacity_failure": 0.0,
+      "contract_capacity_shortfall": 0.0,
+      "worst_type_reference_failure": 0.0,
+      "policy_cap": 0.2155945494324059
+    },
+    "0.05": {
+      "J": 0.552663756138365,
+      "gain_percent": 19.49486619207892,
+      "mean_release": 0.18904197720371363,
+      "mean_capacity": 0.763425186322228,
+      "mean_speed": 0.5890419772037135,
+      "heldout_shortfall": 0.0,
+      "heldout_failure": 0.0,
+      "allocations": [
+        {
+          "type": 0.4,
+          "r": 0.20723154351877437,
+          "q": 0.7743389261112646,
+          "s": 0.6072315435187744,
+          "fb_release": 0.20723154351877437
+        },
+        {
+          "type": 0.525,
+          "r": 0.20723154351877437,
+          "q": 0.7743389261112646,
+          "s": 0.6072315435187744,
+          "fb_release": 0.20723154351877437
+        },
+        {
+          "type": 0.65,
+          "r": 0.20723154351877437,
+          "q": 0.7743389261112646,
+          "s": 0.6072315435187744,
+          "fb_release": 0.20723154351877437
+        },
+        {
+          "type": 0.775,
+          "r": 0.20723154351877437,
+          "q": 0.7743389261112646,
+          "s": 0.6072315435187744,
+          "fb_release": 0.20723154351877437
+        },
+        {
+          "type": 0.9,
+          "r": 0.05000000000000086,
+          "q": 0.6800000000000005,
+          "s": 0.4500000000000009,
+          "fb_release": 0.20723154351877437
+        }
+      ],
+      "contract_capacity_failure": 0.0,
+      "contract_capacity_shortfall": 0.0,
+      "worst_type_reference_failure": 0.0,
+      "policy_cap": 0.20723154351877437
+    },
+    "0.01": {
+      "J": 0.49090000000000056,
+      "gain_percent": 6.140540540540651,
+      "mean_release": 0.05000000000000086,
+      "mean_capacity": 0.6800000000000005,
+      "mean_speed": 0.45000000000000084,
+      "heldout_shortfall": 0.0,
+      "heldout_failure": 0.0,
+      "allocations": [
+        {
+          "type": 0.4,
+          "r": 0.05000000000000086,
+          "q": 0.6800000000000005,
+          "s": 0.4500000000000009,
+          "fb_release": 0.05000000000000086
+        },
+        {
+          "type": 0.525,
+          "r": 0.05000000000000086,
+          "q": 0.6800000000000005,
+          "s": 0.4500000000000009,
+          "fb_release": 0.05000000000000086
+        },
+        {
+          "type": 0.65,
+          "r": 0.05000000000000086,
+          "q": 0.6800000000000005,
+          "s": 0.4500000000000009,
+          "fb_release": 0.05000000000000086
+        },
+        {
+          "type": 0.775,
+          "r": 0.05000000000000086,
+          "q": 0.6800000000000005,
+          "s": 0.4500000000000009,
+          "fb_release": 0.05000000000000086
+        },
+        {
+          "type": 0.9,
+          "r": 0.05000000000000086,
+          "q": 0.6800000000000005,
+          "s": 0.4500000000000009,
+          "fb_release": 0.05000000000000086
+        }
+      ],
+      "contract_capacity_failure": 0.0,
+      "contract_capacity_shortfall": 0.0,
+      "worst_type_reference_failure": 0.0,
+      "policy_cap": 0.05000000000000086
+    }
+  }
+}
